@@ -39,11 +39,9 @@ const HeroCollage = () => {
       '.hero-element',
       { y: 300 },
       {
-        y: 0, 
+        y: 0,
         duration: 1,
-        delay: function (index) {
-          return 0.2 * index;
-        },
+        delay: (index) => 0.2 * index,
       }
     );
   });
