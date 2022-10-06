@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import { gsap } from 'gsap';
 // import { ScrollTrigger } from 'gsap/all';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import FeatureSlides from '../components/FeatureSlides';
 
 const Main = () => {
   const [loader, setLoader] = useState(true);
@@ -22,6 +23,8 @@ const Main = () => {
   ) : (
     <div>
       <Hero />
+      <FeatureSlides />
+      <div className="footer">Build your ideal story today.</div>
     </div>
   );
 };
