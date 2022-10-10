@@ -8,7 +8,7 @@ const HomeLazy = Loadable({
   loader: () => import('../containers/Main'),
   loading: loader,
 });
-//
+
 const Index = () => {
   return <HomeLazy />;
 };
